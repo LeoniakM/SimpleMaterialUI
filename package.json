@@ -1,16 +1,27 @@
 {
   "name": "simplematerial_ui",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/simple-material-ui.cjs.js",
+  "module": "dist/simple-material-ui.esm.js",
+  "browser": "dist/simple-material-ui.umd.js",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "web components",
+    "material design",
+    "ui",
+    "components"
+  ],
   "author": "LeoniakM",
   "license": "MIT",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeoniakM/simplematerial-ui.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
